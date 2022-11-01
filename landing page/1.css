@@ -1,0 +1,245 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(255, 241, 175);
+}
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(to right, rgb(180, 198, 166), rgb(102, 128, 106));
+    position: fixed;
+    top: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+nav .logo {
+    font-size: 1.rem;
+    width: 10%;
+    left: -35px;
+    position: relative;
+    top: -15px;
+}
+
+nav .logo img {
+    padding-top: 20px;
+    width: 50px;
+}
+
+nav li {
+    display:inline-table;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(78, 71, 71);
+    font-family: Arial;
+    padding: 0px 10px;
+    font-weight: bold;
+    transition: 0.15s;
+}
+
+nav a:hover {
+    color: aliceblue;
+}
+
+#nav-button {
+    display: none;
+}
+
+.header {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero-container {
+    display: flex;
+    height: 470px;
+    padding: 0 10%;
+}
+
+.hero-container > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 360px;
+    margin: 10px 0;
+    font-weight: bolder;
+    color: rgb(102, 128, 106);
+}
+
+.hero-container p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: var(--gray);
+}
+
+.hero-container > img {
+    width: 50%;
+    height: 323px;
+    align-self: center;
+}
+
+.second-container {
+    background-color: rgb(255, 241, 175);
+    display: flex;
+    height: 300px;
+    padding: 0 10%;
+}
+
+.content-header {
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--gray);
+    width: 800px;
+}
+
+.second-container > img {
+    width: 50%;
+    height: 500px;
+    align-self: baseline;
+}
+
+.third-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    justify-items: center;
+    padding: 0 10%;
+}
+
+.third-container > img {
+    width: 50%;
+}
+
+.card2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 241, 175);
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight:bold;
+}
+
+header img {
+    padding: 10px 0px;
+    box-sizing: border-box;
+    top: 60px;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section img {
+    padding: 10px 0px;
+    box-sizing: border-box;
+    top: 60px;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}  
+
+text {
+    width: 205px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.search-input {
+    width: 205px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    float: left;
+    padding-left: 15px;
+    box-shadow: 20px 20px 50px rgba(46, 46 , 46, 0.66);
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+.search-btn {
+    width: 100px;
+    height: 42px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #014280;
+    margin-left: -46px;
+    margin-top: 0.2px;
+    box-shadow: 20px 20px 50px rgba(46, 46 , 46, 0.66);
+}
+
+.col-img {
+    width: 50%;
+    height: 323px;
+    align-self: center;
+    margin-right: 100px;
+}
+
+.container-page2 {
+    display: flex;
+    width: 100%;
+    float: inline-start;
+    padding: 0 10%;
+}
+
+.container-page2 h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 128, 106);
+}
+
+.container-page2 img {
+    width: 100%;
+}
+
+.page2 {
+    float: right;
+    padding-left: 200px;
+    align-content: flex-end;
+
+}
+
+.box-page2 {
+    display: grid;
+    grid-gap: 50px;
+    justify-content: baseline;
+    padding: 10px;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    margin: 30px;
+    text-align: center;
+}
