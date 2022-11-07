@@ -1,0 +1,47 @@
+@media all and (max-width: 1000px) {
+
+.section-main {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.top-wrapper h1 {
+    font-size: 32px;
+}
+
+.explore-btn {
+    width: 50%;
+    }
+
+.heading h2 {
+    font-size: 20px;
+}
+}
+
+@media all and (max-width: 670px) {
+.section-main {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+    
+.explore-btn {
+    width: 30%;
+    }
+    
+    
+.top-wrapper {
+    text-align: center;
+}
+
+.menu-icon {
+    display: block;
+}
+
+.message {
+    width: 30%;
+}
+
+}
