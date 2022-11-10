@@ -1,2 +1,2 @@
 # archive
-trying to make landing page 
+this repository its my experoience trying make a landing page 
